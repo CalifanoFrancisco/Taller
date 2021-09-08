@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="ejemplo.js">   </script>
+        <title>uwu              </title>
+    </head>
+    <body>
+        <p>Ingrese numero 1:</p>
+        <input type="text" id="n1">
+
+        <p>Ingrese numero 2:</p>
+        <input type="text" id="n2">
+
+        <br>
+        
+        <button onclick="suma()"          > SUMA            </button>
+        <button onclick="resta()"         > RESTA           </button>
+        <button onclick="division()"      > DIVISION        </button>
+        <button onclick="multiplicacion()"> MULTIPLICACION  </button>
+
+        <script>
+            let n1 = document.getElementById("n1").value;
+
+            function suma(n1,n2) {
+                console.log("Suma: "+(n1+n2));
+            }
+
+            function resta(n1,n2) {
+                console.log("Resta: " + (n1-n2));
+            }
+
+            function division(n1,n2) {
+                console.log("Division: " + (n1/n2));
+            }
+
+            function multiplicacion(n1,n2) {
+                console.log("Multiplicacion"+(n1*n2));
+            }
+        </script>
+
+    </body>
+</html>
